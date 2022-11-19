@@ -1,0 +1,81 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    font-size: x-large;
+    font-weight: bolder;
+    background-color: lightgray;
+    justify-content: space-around;
+}
+
+.buyNsell{
+    padding: 50px;
+    font-size: xx-large;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+}
+
+ul a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    font-size: 30px;
+}
+li{
+    padding: 30px;
+}
+
+button{
+    height: 40px;
+    width: 90px;
+    border-color: grey;
+    box-shadow: 3px 3px #888888;
+    background-color: grey;
+    border-radius: 10%;
+    font-size: x-large;
+}
+
+button:hover{
+    
+    height: 45px;
+    width: 90px;
+}
+
+input{
+    height: 25px;
+    margin: 5px;
+}
+
+i:hover{
+    cursor: pointer;
+}
+
+.text-lg {
+    font-size: 30px;
+}
+
+.font-weight-bold{
+    font-weight : bold;
+}
+
+.line{
+    font-size: large;
+}
+
+label{
+    font-size: large;
+}
+
+.btn {
+    color: black;
+    background: white;
+    padding: 8px 12px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}

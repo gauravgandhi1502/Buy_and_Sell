@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sell</title>
+</head>
+
+ <style>
+
+label {
+ display: inline-block;
+width:200px;
+text-align: right;
+}
+#dob{
+  width : 200px;
+}
+</style> 
+
+<link rel="stylesheet" href="/Project/Home.css">
+<body>
+  <nav class="navbar">
+    <div class="buyNsell">
+      IITG Buy and Sell
+    </div>
+
+
+    <div class="content">
+      <ul class="items">
+        <li class = "home">
+          <a href="/Project/index.php"> Home </a>
+        </li>
+        <li class="sell">
+          <a class="nav-link" href="/Project/myProduct.php">My Product</a>
+        </li>
+        <li class="contactus">
+          <a class="nav-link" href="/Project/connect.html">Contact us</a>
+        </li>
+       
+       
+      </ul>
+    </div>
+
+
+</nav>
+    <center>
+        <header>
+           
+	    <h1> Product Details</h1>
+          
+        </header>
+            <form method="post" action="vehicle.php" enctype="multipart/form-data">
+    
+                <br><br>
+          <label for="fname">Product Name:</label>
+          <input type="text" id="Product_Name" name="Product_Name" required pattern="[A-Za-z]{1,}" title="Must be alphabetic"><br><br>
+
+	  <label for="fname">Type:</label>
+          <input type="text" id="Type" name="Type" required pattern="[A-Za-z]{1,}"><br><br>
+
+	  <label for="comname">Company:</label>
+          <input type="text" id="Company" name="Company" required pattern="[A-Za-z]{1,}" title="Must be alphabetic"><br><br>
+	  <label for="fname">Model:</label>
+          <input type="text" id="Type" name="Model" required pattern="[A-Za-z]{1,}"><br><br>
+
+	  <label for="fname">Pass no.:</label>
+          <input type="text" id="Type" name="Pass_number" required pattern="[0-9]{1,}"><br><br>
+
+          <label for="lname">Description:</label>
+          <input type="text" class="border-2px"  id="Description" name="Description" pattern="[A-Za-z.]{1,}" title="Must be alphabetic"><br><br>
+    
+          
+          <label for="dob">Date of Purchase:</label>
+          <input type="date" id="Purchase_Date" name="Purchase_Date" min="1900-01-01"><br><br>
+          
+          <label for="Phone">Price:</label>
+          <input type="text" id="Price" name="Price"><br><br>
+        
+            <label for="Forgot_text">Upload Image:</label>
+            <input type="file" id="Image" name="Image"><br><br><br>
+    
+          <button class="btn-primary btn-lg border border-dark rounded">Submit</button>
+          <!-- <input type="submit" value="Reset"> -->
+          <br><br>
+          
+        </form>
+        </center>
+</body>
+</html>
